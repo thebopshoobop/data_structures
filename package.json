@@ -1,0 +1,26 @@
+{
+  "name": "data_structures",
+  "version": "0.0.1",
+  "description":
+    "Implementations of common data structures written in Python and JavaScript.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./node_modules/jasmine/bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebopshoobop/data_structures.git"
+  },
+  "author": "Will Timpson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebopshoobop/data_structures/issues"
+  },
+  "homepage": "https://github.com/thebopshoobop/data_structures#readme",
+  "dependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
