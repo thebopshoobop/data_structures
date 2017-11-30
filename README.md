@@ -8,7 +8,7 @@ and JavaScript (tested on Node.js 8.9.1).
 ### Python tests are written with [pytest](https://docs.pytest.org/en/latest/)
 
 If you have pytest installed globally, you can simply invoke it to run the
-python tests `pytest`. Likewise, if you have
+python tests: `pytest`. Likewise, if you have
 [Setuptools](https://pypi.python.org/pypi/setuptools) installed (available in
 most Linux distros as python-setuptools), you can run `python setup.py test`.
 
