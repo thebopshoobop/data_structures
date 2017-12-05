@@ -1,6 +1,5 @@
 class Heap {
-  constructor(type = {}) {
-    const { max = false } = type;
+  constructor({ max } = {}) {
     this.heap = [];
     this.m = max ? -1 : 1;
     this.nodeAt = this.nodeAt.bind(this);
